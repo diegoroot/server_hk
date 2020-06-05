@@ -3,7 +3,7 @@ from flask_cors import cross_origin
 from flask_cors import CORS
 app = Flask(__name__)
 
-@app.route('/ingresar_sala', methods=['GET','POST'])
+@app.route('/', methods=['GET','POST'])
 def consul():
 	return "hola"
 
